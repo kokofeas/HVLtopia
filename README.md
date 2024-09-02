@@ -14,11 +14,11 @@ Brukerhistorier
 
   Slik at jeg får en forståelse av hvorfor dette prosjektet er initiert.
 
-- BRH-3
+- BRH-5
 
-  Ønsker jeg å se en presentasjon av løsninger og resultat fra HVLtopia prosjektet.
+  Ønsker jeg å finne kontaktinformasjon for HVLtopia prosjektet.
 
-  Slik at jeg får en forståelse av løsningene og hvilken påvirkning disse har på miljø og lokalsamfunn.
+  Slik at jeg vet hvem jeg skal kontakte, og hvordan jeg skal gå frem for å evt. inngå et samarbeid med prosjektet.
 
 Del 1
 
