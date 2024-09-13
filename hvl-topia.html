@@ -3,6 +3,74 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HVLtopia</title>
+    <link rel="stylesheet" href="hvl-topia.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <ul class="navbar-links-container">
+        <li class="navbar-link"><a href="#home">Home</a></li>
+        <li class="navbar-link"><a href="#news">Status</a></li>
+        <li class="navbar-link"><a href="#contact">Info</a></li>
+        <li class="navbar-link"><a href="#about">Contact</a></li>
+      </ul>
+      <svg
+        class="navbar-hamburgerMenu"
+        width="40"
+        height="28"
+        viewBox="0 0 40 28"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M2 14H38M2 2H38M2 26H38"
+          stroke="white"
+          stroke-width="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </nav>
+
+    <!-- intro img with text ontop -->
+    <div class="intro-container">
+      <h1 class="intro-title">HVLtopia</h1>
+      <p class="intro-text">Making enviromently frendly solutions for the future</p>
+    </div>
+
+    <!-- Cards -->
+    <div class="card-container">
+      <div class="card status_card-container">
+        <img class="card-image status_card-image" src="status.jpg" alt="" />
+        <p class="card-description status_card-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, voluptates quidem?
+          Consequuntur, a dicta esse quisquam consectetur provident.
+        </p>
+        <div class="card-link-container status_card-link-container">
+          <a class="card-link status_card-link" href="">Les mer</a>
+        </div>
+      </div>
+
+      <div class="card info_card-container">
+        <img class="card-image info_card-image" src="info.jpg" alt="" />
+        <p class="card-description info_card-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, voluptates quidem?
+          Consequuntur, a dicta esse quisquam consectetur provident.
+        </p>
+        <div class="card-link-container info_card-link-container">
+          <a class="card-link info_card-link" href="">Les mer</a>
+        </div>
+      </div>
+
+      <div class="card kontakt_card-container">
+        <img class="card-image kontakt_card-image" src="question.jpg" alt="" />
+        <p class="card-description kontakt_card-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, voluptates quidem?
+          Consequuntur, a dicta esse quisquam consectetur provident.
+        </p>
+        <div class="card-link-container kontakt_card-link-container">
+          <a class="card-link info_card-link" href="">Les mer</a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
