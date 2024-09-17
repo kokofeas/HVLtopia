@@ -1,0 +1,184 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar start*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 15px 20px;
+}
+
+.navbar-links-container {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-link a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-link a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+.navbar-hamburgerMenu {
+  color: white;
+}
+
+/* Navbar end */
+
+/* Intro text on image start*/
+
+/* Container to hold the image and text */
+.intro-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("images/city.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* The text on the image */
+.intro-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem; /* Responsive base font size */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.intro-title {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 48px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: adds a semi-transparent background */
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .intro-title,
+  .intro-text {
+    font-size: 1.5rem; /* Decrease font size for smaller screens */
+    padding: 8px 15px; /* Adjust padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .intro-container {
+    width: 90%; /* Make image container more narrow */
+  }
+
+  .intro-title,
+  .intro-text {
+    font-size: 1.2rem; /* Further decrease font size for very small screens */
+    padding: 6px 10px; /* Reduce padding even more */
+  }
+}
+/* Intro text on image end */
+
+/* cards start */
+
+/* Card Container */
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  align-content: space-between;
+}
+
+/* Card Styles */
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.card-description {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.card-link {
+  text-decoration: none;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+.card-link-container,
+.card-title-container {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.card-link-container {
+  margin-top: auto;
+}
+
+.card-link:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
+
+/* Cards end */
