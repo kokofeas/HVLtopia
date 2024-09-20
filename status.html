@@ -3,55 +3,58 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HVLtopia Prosjektstatus</title>
-    <style>
-      table,
-      th,
-      td {
-        border: 1px solid black;
-      }
-    </style>
+    <title>HVLtopia Status</title>
+    <link rel="stylesheet" href="status.css">
   </head>
   <body>
     <nav class="navbar">
       <ul class="navbar-links-container">
-        <li class="navbar-link"><a href="./home.html">Hjem</a></li>
+        <li class="navbar-link"><a href="./home.html">Home</a></li>
         <li class="navbar-link"><a href="./status.html">Status</a></li>
         <li class="navbar-link"><a href="./info.html">Info</a></li>
-        <li class="navbar-link"><a href="./kontakt.html">Kontakt</a></li>
+        <li class="navbar-link"><a href="./kontakt.html">Contact</a></li>
       </ul>
     </nav>
+    <h1>Status av Nettside</h1>
+    <table class="status-table">
+        <thead>
+            <tr>
+                <th>Nettside</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hjemmeside</td>
+                <td class="status-up">Oppe</td>
+            </tr>
+            <tr>
+                <td>Kontakt oss</td>
+                <td class="status-up">Oppe</td>
+            </tr>
+            <tr>
+                <td>Info side</td>
+                <td class="status-up">Oppe</td>
+            </tr>
+        </tbody>
+    </table>
 
-    <div class="card info_card-container">
-      <!-- <img class="card-image info_card-image" src="images/info.jpg" alt="" /> -->
-      <p class="card-description info_card-description">Prosjektet sitt Status</p>
-    </div>
-
-    <table>
-      <thead>
-        <tr>
-          <th>Oppgave</th>
-          <th>Status</th>
-        </tr>
-      </thead>
+    <table class="info-table">
       <tbody>
         <tr>
-          <td>Oppgave 1:</td>
-          <td>Pågående</td>
+          <td>Hjemmeside:</td>
+          <td>Her er det lagt opp til at du kan lese og finne en kort versjon om det nettsiden har å tilby på.</td>
         </tr>
         <tr>
-          <td>Oppgave 2:</td>
-          <td>Fullført</td>
+          <td>Kontakt oss:</td>
+          <td>Her finner du informasjon om de forskjellige personene som står bak nettsiden og hvor du kan kontakte oss om du har spørsmål.</td>
         </tr>
         <tr>
-          <td>Oppgave 3:</td>
-          <td>Ikke påbegynt</td>
-        </tr>
-        <tr>
-          <td>Oppgave 4:</td>
-          <td>påbegynt</td>
+          <td>Info side:</td>
+          <td>Her finner du en mer beskrivende del av det denne nettsiden står for og hva som jobbes på.</td>
         </tr>
       </tbody>
     </table>
+
   </body>
 </html>
