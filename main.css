@@ -331,3 +331,43 @@ h1 {
   color: #333;
 }
 /* Status end */
+
+/* Løsninger start */
+.løsninger-container{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+.løsninger-section {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  gap: 20px;
+  max-width: 800px;
+}
+.løsninger-section-img img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 10px;
+}
+.løsninger-container .text-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.løsninger-container .text-container h1{
+  font-size: 2rem; 
+  color: #333;
+}
+.løsninger-container .text-container p{
+  font-size: 1rem;
+  color: #555; 
+  line-height: 1.5; 
+  text-align: left;
+}
