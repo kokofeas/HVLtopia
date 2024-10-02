@@ -187,9 +187,21 @@ section {
 /* Home end */
 
 /* Info start */
-.image-container {
-  width: 550px;
+.info-card-container {
+  display: flex;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 20px;
+  padding: 20px;
+  flex-direction: row; /* For å sikre at det vises i rad */
+  background-color: white;
+  border-radius: 10px;
+  align-items: center; /* Sentrerer innholdet vertikalt */
+}
+
+.image-container {
+  max-width: 550px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-shrink: 1;
 }
 
 .text-container {
@@ -198,12 +210,13 @@ section {
   text-align: center;
   margin: auto;
   padding: 20px;
+  flex-shrink: 1;
 }
 
 .bilde {
   background-color: #cccccc;
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
