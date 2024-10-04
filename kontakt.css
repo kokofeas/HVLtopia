@@ -3,112 +3,112 @@
 
 
 html {
-    width: 100%;
-    height: 100vh;
-    margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
 }
 * {
+margin: 0;
+padding: 0;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 15px 20px;
+}
+
+.navbar-links-container {
+  display: flex;
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
-body {
-    width: 100%;
-    min-height: 100vh;
+
+.navbar-link a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
 }
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 15px 20px;
-  }
-  
-  .navbar-links-container {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar-link a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-    padding: 8px 12px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .navbar-link a:hover {
-    background-color: #575757;
-    border-radius: 4px;
-  }
-  .navbar-hamburgerMenu {
-    color: white;
-  }
-  
+
+.navbar-link a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+.navbar-hamburgerMenu {
+  color: white;
+}
+
 
 #map {
-    height: 500px;
-    width: 60%;
-    margin: auto;
-    padding: 20px;
-    /* position: relative;
-    top: -100px;
-    left: 0px; */
-    top: 50px;
-    box-shadow: 4px 4px 3px #888888;
-    border-radius: 10px;
+  height: 500px;
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  /* position: relative;
+  top: -100px;
+  left: 0px; */
+  top: 50px;
+  box-shadow: 4px 4px 3px #888888;
+  border-radius: 10px;
 
 }
 
 h2 {
-    display: flex;
-    font-family: Arial, sans-serif; 
-    font-size: 30px;
-    font-weight: bold;
-    color: #6a6a6a;
-    margin: 0 0 10px 0;
-    /* position: relative;
-    top: 300px; */
-    /* left: 840px; */
-    position: absolute;
-    top: 70px;
-    left: 100px;
+  display: flex;
+  font-family: Arial, sans-serif; 
+  font-size: 30px;
+  font-weight: bold;
+  color: #6a6a6a;
+  margin: 0 0 10px 0;
+  /* position: relative;
+  top: 300px; */
+  /* left: 840px; */
+  position: absolute;
+  top: 90px;
+  left: 100px;
 }
 
 h1 {
-    display: flex;
-    font-family: Arial, sans-serif; 
-    font-size: 50px;
-    font-weight: bold;
-    color: #6a6a6a;
-    margin: 0 0 10px 0;
-    /* position: relative;
-    top: 320px; */
-    /* left: 840px; */
+  display: flex;
+  font-family: Arial, sans-serif; 
+  font-size: 50px;
+  font-weight: bold;
+  color: #6a6a6a;
+  margin: 0 0 10px 0;
+  /* position: relative;
+  top: 320px; */
+  /* left: 840px; */
 }
 
 .ul_kontakt li {
-    display: flex;
-    list-style-type: circle;
-    list-style-position: inside;
-    line-height: 1.5;
-    font-size: 15px;
-    /* font-size: 36px;
-    position: relative;
-    top: 300px; */
-    /* left: 800px; */
+  display: flex;
+  list-style-type: circle;
+  list-style-position: inside;
+  line-height: 1.5;
+  font-size: 15px;
+  /* font-size: 36px;
+  position: relative;
+  top: 300px; */
+  /* left: 800px; */
 }
 
 .kontakt-container{
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
 }
 .kontakt-info-container{
-  margin: auto;
-  box-shadow: inset -3px 4px 3px #888888;
-  padding: 20px;
-  border-radius: 10px;
+margin: auto;
+box-shadow: inset -3px 4px 3px #888888;
+padding: 20px;
+border-radius: 10px;
 }
 

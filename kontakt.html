@@ -10,35 +10,34 @@
         (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
           key: "AIzaSyDMSf58ogqi6b-SYOZiuQ-a6PuQDXRrtY4",
           v: "weekly",
-          // Use the 'v' parameter to indicate the version to use (weekly, beta, alpha, etc.).
-          // Add other bootstrap parameters as needed, using camel case.
+          // The 'v' parameter to indicate the version to use (weekly, beta, alpha, etc.).
         });
       </script>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="kontakt.css">
     <body>
-        <nav class="navbar">
-          <ul class="navbar-links-container">
-            <li class="navbar-link"><a href="./home.html">Hjem</a></li>
-            <li class="navbar-link"><a href="./status.html">Status</a></li>
-            <li class="navbar-link"><a href="./info.html">Info</a></li>
-            <li class="navbar-link"><a href="./kontakt.html">Kontakt</a></li>
-          </ul>
-            <svg
-              class="navbar-hamburgerMenu"
-              width="40"
-              height="28"
-              viewBox="0 0 40 28"
-              xmlns="http://www.w3.org/2000/svg"
+      <nav class="navbar">
+        <img
+              src="HVLtopiaLogo.png"
+              alt="HVLtopia logo"
+              class="navbar-img"
+              height="50"
             >
-              <path
-                d="M2 14H38M2 2H38M2 26H38"
-                stroke="white"
-                stroke-width="4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-        </nav>
+        <ul class="navbar-links-container">
+          <li class="navbar-link"><a href="./home.html">Home</a></li>
+          <li class="navbar-link"><a href="./status.html">Status</a></li>
+          <li class="navbar-link"><a href="./info.html">Info</a></li>
+          <li class="navbar-link"><a href="./kontakt.html">Kontakt</a></li>
+          <li class="navbar-link"><a href="./løsninger.html">Løsninger</a></li>
+        </ul>
+          <path
+            d="M2 14H38M2 2H38M2 26H38"
+            stroke="white"
+            stroke-width="4"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </nav>
         <div class="kontakt-container">
           <div class="kontakt-info-container">
             <h1>
