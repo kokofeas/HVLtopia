@@ -444,3 +444,52 @@ h1 {
 a{
   text-decoration: none;
 }
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 20px;
+  min-width: 250px;
+}
+
+.footer-section h4 {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.footer-section p {
+  line-height: 1.6;
+  font-size: 0.9em;
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+.footer-bottom {
+  padding: 10px 0;
+  background-color: #222;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.8em;
+}
