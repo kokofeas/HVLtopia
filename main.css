@@ -6,6 +6,11 @@
 }
 body {
   background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  height: auto;      
 }
 
 main {
@@ -14,24 +19,33 @@ main {
 
 section {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
+}
+.info-card-container {
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 20px;
+  padding: 20px;
+  flex-direction: row; /* For å sikre at det vises i rad */
+  background-color: white;
+  border-radius: 10px;
+  align-items: center; /* Sentrerer innholdet vertikalt */
 }
 
 /* Navbar start */
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background-color: #333;
-  padding: 15px 20px;
+  padding: 31px 20px;
 }
 
 .navbar-links-container {
   display: flex;
-  float: left;
   list-style-type: none;
+  margin: auto;
+
 }
 .navbar-link{
   margin-bottom: 0;
@@ -47,6 +61,9 @@ section {
 .navbar-link a:hover {
   background-color: #575757;
   border-radius: 4px;
+}
+.navbar-img{
+  position: absolute;
 }
 
 /* Navbar end */
@@ -143,13 +160,13 @@ section {
 
 .card-description {
   font-size: 16px;
-  color: #777;
-  margin-bottom: 20px;
+  color: #555;
+  padding: 20px;
 }
 
 .card-link {
   text-decoration: none;
-  background-color: #3498db;
+  background-color: #0000ff;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -161,11 +178,14 @@ section {
 .card-title-container {
   display: flex;
   justify-content: center;
-  padding: 5px;
+}
+.card-title-container{
+  padding-top: 20px;
 }
 
 .card-link-container {
   margin-top: auto;
+  padding-bottom: 20px;
 }
 
 .card-link:hover {
@@ -186,17 +206,6 @@ section {
 /* Home end */
 
 /* Info start */
-.info-card-container {
-  display: flex;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  gap: 20px;
-  padding: 20px;
-  flex-direction: row; /* For å sikre at det vises i rad */
-  background-color: white;
-  border-radius: 10px;
-  align-items: center; /* Sentrerer innholdet vertikalt */
-}
-
 .image-container {
   max-width: 550px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -265,21 +274,22 @@ ul li {
 .kontakt-container {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .kontakt-info-container {
-  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   box-shadow: 4px 4px 3px #888888;
 }
-
+/* 
 .kontakt-container h2 {
   position: absolute;
   left: 0;
   top: 70px;
   font-size: 30px;
   font-weight: bold;
-}
+} */
 
 h1 {
   font-size: 50px;
@@ -290,13 +300,17 @@ h1 {
   list-style-type: circle;
   line-height: 1.5;
 }
+
+.kontakt-map-container{
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+}
+
 /* Map section */
 #map {
-  height: 500px;
-  width: 40%;
-  margin: 0;
-  padding: 20px;
-  top: 50px;
+  height: 100%;
+  height: 100%; 
   box-shadow: 4px 4px 3px #888888;
 }
 /* Kontakt end */
@@ -334,7 +348,7 @@ h1 {
 }
 
 .status-table th {
-  background-color: #4caf50;
+  background-color: #2C632E;
   color: white;
 }
 
@@ -426,7 +440,7 @@ h1 {
   margin-bottom: 10px;
 }
 .member-card p {
-  color: #777;
+  color: white;
   font-size: 1em;
 }
 /* تنظیمات برای نفرات بعدی */
@@ -435,7 +449,7 @@ h1 {
 }
 .om_oss-container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 40px auto;
   text-align: center;
 }
 .om_oss-container h1 {
@@ -467,7 +481,7 @@ footer {
   min-width: 250px;
 }
 
-.footer-section h4 {
+.footer-section h1 {
   margin-bottom: 15px;
   font-size: 1.2em;
 }
@@ -492,4 +506,19 @@ footer {
 .footer-bottom p {
   margin: 0;
   font-size: 0.8em;
+}
+/* footer end */
+
+/* Om oss person start */
+.image-container-om_oss{
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-shrink: 1;
+}
+.container-om_oss{
+  margin-top: 20px;
+  margin-bottom: auto;
+}
+.container-om_oss .text-container{
+  box-shadow: none;
 }
