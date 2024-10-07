@@ -144,6 +144,7 @@ section {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   width: 300px;
+  height: 50%;
   transition: transform 0.3s ease;
 }
 
@@ -521,4 +522,8 @@ footer {
 }
 .container-om_oss .text-container{
   box-shadow: none;
+}
+.container-om_oss  h1{
+ font-size: 2.125rem;
+ font-weight: 600;
 }
