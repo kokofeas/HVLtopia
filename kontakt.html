@@ -15,6 +15,7 @@
         });
       </script>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <body>
       <header>
           <!-- navbar -->
@@ -37,23 +38,26 @@
           </nav>
         </header>
 
-        <div class="kontakt-container">
+        <div class="kontakt-container"> 
+          <div class="kontakt-image-container">
+            <img src="images/Futuristic_Bergen.png" alt="Futuristic_Bergen" class="kontakt-img">
+            </div>
           <div class="kontakt-info-container">
             <h1>
               Kontakt Info:
             </h1>
             <ul class="ul_kontakt">
-              <li>
+              <li class="li_telefon"><i class="fa-solid fa-phone"></i>
                   Telefon: +47 123 45 678
               </li>
-              <li>
-                  Besøksadresse: 5003 Bergen
+              <li class="li_adresse"><i class="fa-solid fa-address-book"></i>
+                  Besøksadresse: Inndalsveien 28, Bergen
               </li>
-              <li>
+              <li class="li_fax"><i class="fa-solid fa-fax"></i>
                   Fax: +47 123 45 678
               </li>
-              <li>
-                  Epostadresse: admin@hvltopia.no
+              <li class="li_epost"><i class="fa-solid fa-envelope"></i>
+                  Epostadresse: post@hvltopia.no
               </li>
             </ul>
           </div>
@@ -64,7 +68,8 @@
             <div id="map">
                 <script src="kontakt.js"></script>
             </div>
-          </div>   
+          </div>  
+         
         </div>
 
         <footer>
