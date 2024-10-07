@@ -4,157 +4,185 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HVLtopia</title>
-    <link rel="stylesheet" href="info.css">
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
     <header>
+      <!-- navbar -->
       <nav class="navbar">
+        <img
+              src="images/HVLtopiaLogo.png"
+              alt="HVLtopia logo"
+              class="navbar-img"
+              height="50"
+            >
         <ul class="navbar-links-container">
           <li class="navbar-link"><a href="./home.html">Home</a></li>
           <li class="navbar-link"><a href="./status.html">Status</a></li>
           <li class="navbar-link"><a href="./info.html">Info</a></li>
           <li class="navbar-link"><a href="./kontakt.html">Kontakt</a></li>
+          <li class="navbar-link"><a href="./løsninger.html">Løsninger</a></li>
+          <li class="navbar-link"><a href="./bærekraft.html">Bærekraft</a></li>
+          <li class="navbar-link"><a href="./om-oss.html">Om oss</a></li>
         </ul>
-        <svg
-          class="navbar-hamburgerMenu"
-          width="40"
-          height="28"
-          viewBox="0 0 40 28"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M2 14H38M2 2H38M2 26H38"
-            stroke="white"
-            stroke-width="4"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
       </nav>
     </header>
 
     <main>
       <!-- Overskrift -->
       <section>
-        <div class="text-container">
+        <div class="top-text-container">
           <h1>Hvorfor gjør vi dette?</h1>
         </div>
       </section>
       <!-- Vision seksjon - bildet til venstre -->
       <section>
-        <div class="image-container">
-          <img
-            src="./images/Visjon.jpg"
-            alt="Utsikt over bergen by"
-            class="bilde"
-            width="570"
-            height="300"
-          >
-        </div>
-        <div class="text-container">
-          <h2>Vision</h2>
-          <p>
-            Visjonen til HVLtopia er å skape en fremtidsrettet, bærekraftig by som ivaretar både
-            miljøet og innbyggernes velferd. Gjennom implementering av smarte løsninger vil Bergen
-            utvikles til en by der moderne teknologi og miljøbevissthet går hånd i hånd. Med
-            bærekraftige tiltak i transport, energi og byplanlegging ønsker HVLtopia å redusere
-            karbonutslipp, forbedre livskvaliteten og sikre at byen er robust nok til å møte
-            fremtidens utfordringer.
-          </p>
+        <div class="info-card-container">
+          <div class="image-container">
+            <img
+              src="./images/Visjon.jpg"
+              alt="Utsikt over bergen by"
+              class="bilde"
+              width="570"
+              height="300"
+            >
+          </div>
+          <div class="text-container">
+            <h2>Vision</h2>
+            <p>
+              Visjonen til HVLtopia er å skape en fremtidsrettet, bærekraftig by som ivaretar både
+              miljøet og innbyggernes velferd. Gjennom implementering av smarte løsninger vil Bergen
+              utvikles til en by der moderne teknologi og miljøbevissthet går hånd i hånd. Med
+              bærekraftige tiltak i transport, energi og byplanlegging ønsker HVLtopia å redusere
+              karbonutslipp, forbedre livskvaliteten og sikre at byen er robust nok til å møte
+              fremtidens utfordringer.
+            </p>
+          </div>
         </div>
       </section>
 
       <!-- Hensikt seksjon - bildet til høyre -->
       <section>
-        <div class="text-container">
-          <h2>Hensikt</h2>
-          <p>
-            Hensikten med HVLtopia-prosjektet er å finne løsninger som fremmer både miljøvennlig
-            byutvikling og sosiale aspekter. I tillegg til å gjøre Bergen mer bærekraftig, fokuserer
-            prosjektet på å utvikle inkluderende tjenester som sikrer at alle innbyggerne har
-            tilgang til byens infrastruktur og tjenester, uavhengig av økonomisk situasjon, alder
-            eller mobilitetsbehov. Et fokus på grønn transport, energieffektivitet, og sosial
-            trivsel ligger i kjernen av HVLtopia.
-          </p>
-        </div>
-        <div class="image-container">
-          <img
-            src="./images/Hensikt.jpg"
-            alt="Gamle hender som gir en jordklode videre"
-            class="bilde"
-            width="550"
-            height="300"
-          >
+        <div class="info-card-container">
+          <div class="text-container">
+            <h2>Hensikt</h2>
+            <p>
+              Hensikten med HVLtopia-prosjektet er å finne løsninger som fremmer både miljøvennlig
+              byutvikling og sosiale aspekter. I tillegg til å gjøre Bergen mer bærekraftig, fokuserer
+              prosjektet på å utvikle inkluderende tjenester som sikrer at alle innbyggerne har
+              tilgang til byens infrastruktur og tjenester, uavhengig av økonomisk situasjon, alder
+              eller mobilitetsbehov. Et fokus på grønn transport, energieffektivitet, og sosial
+              trivsel ligger i kjernen av HVLtopia.
+            </p>
+          </div>
+          <div class="image-container">
+            <img
+              src="./images/Hensikt.jpg"
+              alt="Gamle hender som gir en jordklode videre"
+              class="bilde"
+              width="550"
+              height="300"
+            >
+          </div>
         </div>
       </section>
 
       <!-- Mål seksjon - bildet til venstre -->
       <section>
-        <div class="image-container">
-          <img
-            src="./images/Mål.jpg"
-            alt="Hender som holder en plante i jord"
-            class="bilde"
-            width="570"
-            height="300"
-          >
-        </div>
-        <div class="text-container">
-          <h2>Mål</h2>
-          <h4>De viktigste målene for HVLtopia er:</h4>
-          <ul>
-            <li>
-              <strong>Reduksjon av karbonutslipp:</strong> Gjennom energieffektive bygninger,
-              fornybar energi, og grønne transportløsninger vil prosjektet redusere byens
-              miljøpåvirkning.
-            </li>
-            <li>
-              <strong>Sosial inkludering:</strong> HVLtopia skal være en by for alle, der både
-              eldre, barn og mennesker med ulike behov har like muligheter til å benytte seg av
-              byens tilbud.
-            </li>
-            <li>
-              <strong>Innovativ teknologi:</strong> Bruke teknologi som smarte sensorer for å
-              overvåke luftkvalitet, trafikkflyt og energibruk i sanntid, for å kunne tilpasse byens
-              systemer til innbyggernes behov.
-            </li>
-            <li>
-              <strong>Miljøvennlig transport:</strong> Innføre bærekraftige transportsystemer som
-              el-busser, sykkelutleie og bedre tilrettelegging for fotgjengere for å redusere
-              biltrafikk.
-            </li>
-            <li>
-              <strong>Økt bevissthet:</strong> Utdanne og engasjere byens befolkning om viktigheten
-              av bærekraftige løsninger og hvordan de kan bidra i hverdagen.
-            </li>
-          </ul>
+        <div class="info-card-container">
+          <div class="image-container">
+            <img
+              src="./images/Mål.jpg"
+              alt="Hender som holder en plante i jord"
+              class="bilde"
+              width="570"
+              height="300"
+            >
+          </div>
+          <div class="text-container">
+            <h2>Mål</h2>
+            <h3>De viktigste målene for HVLtopia er:</h3>
+            <ul>
+              <li>
+                <strong>Reduksjon av karbonutslipp:</strong> Gjennom energieffektive bygninger,
+                fornybar energi, og grønne transportløsninger vil prosjektet redusere byens
+                miljøpåvirkning.
+              </li>
+              <li>
+                <strong>Sosial inkludering:</strong> HVLtopia skal være en by for alle, der både
+                eldre, barn og mennesker med ulike behov har like muligheter til å benytte seg av
+                byens tilbud.
+              </li>
+              <li>
+                <strong>Innovativ teknologi:</strong> Bruke teknologi som smarte sensorer for å
+                overvåke luftkvalitet, trafikkflyt og energibruk i sanntid, for å kunne tilpasse byens
+                systemer til innbyggernes behov.
+              </li>
+              <li>
+                <strong>Miljøvennlig transport:</strong> Innføre bærekraftige transportsystemer som
+                el-busser, sykkelutleie og bedre tilrettelegging for fotgjengere for å redusere
+                biltrafikk.
+              </li>
+              <li>
+                <strong>Økt bevissthet:</strong> Utdanne og engasjere byens befolkning om viktigheten
+                av bærekraftige løsninger og hvordan de kan bidra i hverdagen.
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
       <!-- Bakgrunn seksjon - bildet til høyre -->
       <section>
-        <div class="text-container">
-          <h2>Bakgrunn</h2>
-          <p>
-            Bergen, kjent for sitt varierte klima og vakre natur, har lenge vært en by med et stort
-            fokus på kultur og innovasjon. Med økende fokus på klimaendringer og urbanisering, har
-            Bergen kommune sett behovet for å utvikle en byplan som tar hensyn til både miljø og
-            innbyggernes helse og velvære. HVLtopia bygger på disse prinsippene ved å ta i bruk
-            fremtidens teknologi for å møte morgendagens utfordringer. Med alt fra fornybar energi
-            til smarte infrastrukturer, er dette prosjektet er en del av Bergens langsiktige
-            strategi for å bli en av de ledende eksemplene på fremtidig byutvikling.
-          </p>
-        </div>
-        <div class="image-container">
-          <img
-            src="./images/Bakgrunn.jpg"
-            alt="Kart over grønn teknologi"
-            class="bilde"
-            width="550"
-            height="300"
-          >
+        <div class="info-card-container">
+          <div class="text-container">
+            <h2>Bakgrunn</h2>
+            <p>
+              Bergen, kjent for sitt varierte klima og vakre natur, har lenge vært en by med et stort
+              fokus på kultur og innovasjon. Med økende fokus på klimaendringer og urbanisering, har
+              Bergen kommune sett behovet for å utvikle en byplan som tar hensyn til både miljø og
+              innbyggernes helse og velvære. HVLtopia bygger på disse prinsippene ved å ta i bruk
+              fremtidens teknologi for å møte morgendagens utfordringer. Med alt fra fornybar energi
+              til smarte infrastrukturer, er dette prosjektet er en del av Bergens langsiktige
+              strategi for å bli en av de ledende eksemplene på fremtidig byutvikling.
+            </p>
+          </div>
+          <div class="image-container">
+            <img
+              src="./images/Bakgrunn.jpg"
+              alt="Kart over grønn teknologi"
+              class="bilde"
+              width="550"
+              height="300"
+            >
+          </div>
         </div>
       </section>
     </main>
+    <footer>
+      <div class="footer-container">
+          <div class="footer-section">
+              <h1>Om HVLtopia</h1>
+              <p>HVLtopia er et initiativ for å fremme bærekraftig utvikling i Bergen, med fokus på miljøvennlig teknologi og samfunnsforbedring.</p>
+          </div>
+          <div class="footer-section">
+              <h1>Kontakt oss</h1>
+              <p>Email: post@hvltopia.no</p>
+              <p>Telefon: +47 123 45 678</p>
+              <p>Adresse: Inndalsveien 28, 5063 Bergen, Norge</p>
+          </div>
+          <div class="footer-section">
+              <h1>Følg oss</h1>
+              <div class="social-icons">
+                  <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                  <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                  <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+              </div>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          <p>&copy; 2024 HVLtopia. Alle rettigheter reservert.</p>
+      </div>
+  </footer>
   </body>
 </html>
