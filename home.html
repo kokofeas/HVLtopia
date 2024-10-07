@@ -4,33 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HVLtopia</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <!-- navbar -->
-    <nav class="navbar">
-      <ul class="navbar-links-container">
-        <li class="navbar-link"><a href="./home.html">Hjem</a></li>
-        <li class="navbar-link"><a href="./status.html">Status</a></li>
-        <li class="navbar-link"><a href="./info.html">Info</a></li>
-        <li class="navbar-link"><a href="./kontakt.html">Kontakt</a></li>
-      </ul>
-      <svg
-        class="navbar-hamburgerMenu"
-        width="40"
-        height="28"
-        viewBox="0 0 40 28"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M2 14H38M2 2H38M2 26H38"
-          stroke="white"
-          stroke-width="4"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-    </nav>
+    <header>
+      <!-- navbar -->
+      <nav class="navbar">
+        <img
+              src="images/HVLtopiaLogo.png"
+              alt="HVLtopia logo"
+              class="navbar-img"
+              height="50"
+            >
+        <ul class="navbar-links-container">
+          <li class="navbar-link"><a href="./home.html">Home</a></li>
+          <li class="navbar-link"><a href="./status.html">Status</a></li>
+          <li class="navbar-link"><a href="./info.html">Info</a></li>
+          <li class="navbar-link"><a href="./kontakt.html">Kontakt</a></li>
+          <li class="navbar-link"><a href="./løsninger.html">Løsninger</a></li>
+          <li class="navbar-link"><a href="./bærekraft.html">Bærekraft</a></li>
+          <li class="navbar-link"><a href="./om-oss.html">Om oss</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <!-- intro img with text ontop -->
     <div class="intro-container">
@@ -40,42 +36,119 @@
 
     <!-- Cards -->
     <div class="card-container">
-      <div class="card status_card-container">
-        <h2 class="card-title-container">Status</h2>
-        <img class="card-image status_card-image" src="images/status.jpg" alt="">
-        <p class="card-description status_card-description">
-          Har du lyst til å finne ut mer om hvor langt vi har kommet i de ulike prosjektene? Finn ut
-          her.
-        </p>
-        <div class="card-link-container status_card-link-container">
-          <a class="card-link" href="./status.html">Les mer</a>
+
+      <div>
+        <!-- Status -->
+        <div class="card status_card-container">
+          <h2 class="card-title-container">Status</h2>
+          <img class="card-image status_card-image" src="images/status.jpg" alt="">
+          <p class="card-description status_card-description">
+            Har du lyst til å finne ut mer om hvor langt vi har kommet i de ulike prosjektene? Finn ut
+            her.
+          </p>
+          <div class="card-link-container status_card-link-container">
+            <a class="card-link" href="./status.html">Les mer</a>
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="card info_card-container">
+          <h2 class="card-title-container">Info</h2>
+          <img class="card-image info_card-image" src="images/info.jpg" alt="">
+          <p class="card-description info_card-description">
+            Er du interesert i å lære mer om hva vi gjør? Hva være mål er? eller hva bakgrunnen for
+            prosjektet er? klikk her
+          </p>
+          <div class="card-link-container info_card-link-container">
+            <a class="card-link" href="./info.html">Les mer</a>
+          </div>
         </div>
       </div>
 
-      <div class="card info_card-container">
-        <h2 class="card-title-container">Info</h2>
-        <img class="card-image info_card-image" src="images/info.jpg" alt="">
-        <p class="card-description info_card-description">
-          Er du interesert i å lære mer om hva vi gjør? Hva være mål er? eller hva bakgrunnen for
-          prosjektet er? klikk her
-        </p>
-        <div class="card-link-container info_card-link-container">
-          <a class="card-link" href="./info.html">Les mer</a>
+      <div>
+        <!-- Kontakt -->
+        <div class="card kontakt_card-container">
+          <div class="card-title-container">
+            <h2>Kontakt</h2>
+          </div>
+          <img class="card-image kontakt_card-image" src="images/question.jpg" alt="">
+          <p class="card-description kontakt_card-description">
+            Hviss du ønsker å kontakte oss kan du finne mer informasjon om hvordan man gjør dette her.
+          </p>
+          <div class="card-link-container kontakt_card-link-container">
+            <a class="card-link" href="./kontakt.html">Les mer</a>
+          </div>
+        </div>
+
+        <!-- Løsninger -->
+        <div class="card kontakt_card-container">
+          <div class="card-title-container">
+            <h2>Løsninger</h2>
+          </div>
+          <img class="card-image kontakt_card-image" src="images/status.jpg" alt="">
+          <p class="card-description kontakt_card-description">
+            HVLTopia har kommet med en rekke løsninger for sammfunnet. Du kan lese om det her.
+          </p>
+          <div class="card-link-container kontakt_card-link-container">
+            <a class="card-link" href="./løsninger.html">Les mer</a>
+          </div>
         </div>
       </div>
 
-      <div class="card kontakt_card-container">
-        <div class="card-title-container">
-          <h2>Contact</h2>
+      <div>
+        <!-- Bærekraft -->
+        <div class="card kontakt_card-container">
+          <div class="card-title-container">
+            <h2>Bærekraft</h2>
+          </div>
+          <img class="card-image kontakt_card-image" src="images/info.jpg" alt="">
+          <p class="card-description kontakt_card-description">
+            HVLTopia har også måtte ta for seg bærekraftig utvikling. Du kan lese om det her.
+          </p>
+          <div class="card-link-container kontakt_card-link-container">
+            <a class="card-link" href="./bærekraft.html">Les mer</a>
+          </div>
         </div>
-        <img class="card-image kontakt_card-image" src="images/question.jpg" alt="">
-        <p class="card-description kontakt_card-description">
-          Hviss du ønsker å kontakte oss kan du finne mer informasjon om hvordan man gjør dette her.
-        </p>
-        <div class="card-link-container kontakt_card-link-container">
-          <a class="card-link" href="./kontakt.html">Les mer</a>
+        <!-- Om oss -->
+        <div class="card kontakt_card-container">
+          <div class="card-title-container">
+            <h2>Om oss</h2>
+          </div>
+          <img class="card-image kontakt_card-image" src="images/question.jpg" alt="">
+          <p class="card-description kontakt_card-description">
+            Ønsker du å vite mer om oss? da kan du klikke her.
+          </p>
+          <div class="card-link-container kontakt_card-link-container">
+            <a class="card-link" href="./om-oss.html">Les mer</a>
+          </div>
         </div>
+            </div>
       </div>
-    </div>
+    
+    <footer>
+      <div class="footer-container">
+          <div class="footer-section">
+              <h1>Om HVLtopia</h1>
+              <p>HVLtopia er et initiativ for å fremme bærekraftig utvikling i Bergen, med fokus på miljøvennlig teknologi og samfunnsforbedring.</p>
+          </div>
+          <div class="footer-section">
+              <h1>Kontakt oss</h1>
+              <p>Email: post@hvltopia.no</p>
+              <p>Telefon: +47 123 45 678</p>
+              <p>Adresse: Inndalsveien 28, 5063 Bergen, Norge</p>
+          </div>
+          <div class="footer-section">
+              <h1>Følg oss</h1>
+              <div class="social-icons">
+                  <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                  <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                  <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+              </div>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          <p>&copy; 2024 HVLtopia. Alle rettigheter reservert.</p>
+      </div>
+  </footer>
   </body>
 </html>
